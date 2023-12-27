@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+p,a,h1,h2,h3{
+  font-family: Montserrat;
+  color: black;
+  text-decoration: none;
+}
+a{
+  cursor:pointer;
+}
+nav{
+  border-bottom: solid 2px #B82681;
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  max-width: 1400px;
+  margin: auto;
+}
+nav a{
+  font-weight: 500;
+  margin-left: 20px;
+}
+nav img{
+  height: 90px;
+}
+
+.info{
+  padding: 60px 0;
+  background-color: #FAEFED;
+}
+.info h1{
+  color:#B85F81;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.info-grid{
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  max-width: 1100px;
+  column-gap: 80px;
+}
+.info-image{
+  background-color: #B85F81;
+  padding: 15px;
+  border-radius: 30px;
+}
+.info-image img{
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.info-container{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.info-container img{
+  width: 35px;
+  margin-right: 8px;
+}
+.info-container p{
+  font-weight: 500;
+  font-size: 18px;
+}
+.info-text a{
+  display: block;
+  margin-top: 20px;
+  color: rgb(17, 69, 124);
+  font-weight: 600;
+  font-size: 14px;
+}
+.termin-button{
+  margin: 15px 0;
+}
+.termin-button a{
+  background-color: #B85F81;
+  padding: 8px;
+  transition: 0.3s;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  width: 120px;
+  text-align: center;
+  color: white;
+}
+.termin{
+  font-size: 12px;
+}
+
+.map{
+  background-color: #B85F81;
+  padding: 60px 0;
+}
+.map h1{
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.map-grid{
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  max-width: 1100px;
+  align-items: center;
+  column-gap: 80px;
+}
+.map-image{
+  padding: 15px;
+  background-color: #EFCEC9;
+  border-radius: 30px;
+}
+.map-image iframe{
+  width: 100%;
+  border-radius: 30px;
+}
+.map-text{
+  border: solid 3px white;
+  padding: 40px;
+}
+.map-text h2{
+  color: white;
+  text-align: center;
+}
+.map-text p{
+  color: white;
+  text-align: center;
+}
+.map-text a{
+  background-color: #EFCEC9;
+  padding: 8px;
+  transition: 0.3s;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+.map-text a:hover{
+  background-color: #FAEFED;
+}
